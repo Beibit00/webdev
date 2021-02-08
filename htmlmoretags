@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+         body{
+             background-color:rgb(145,145,0);
+         }
+         #rcp-1{
+             color:red;
+         }
+         #rcp-2{
+             color:purple;
+         }
+         th{
+             color:white;
+         }
+         .stp-1{
+             color:white;
+         }
+         .stp-2{
+             color:rgb(85,200,255);
+         }
+        </style>
+    </head>
+    <body>
+       
+        <h1>Beibit's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#rcp-1">Recipe #1</a></li>
+            <li><a href="#rcp-2">Recipe #2</a></li>
+        </ol>
+        
+        <h2 id="rcp-1">Recipe #1</h2>
+        
+        <ul>
+            <li>Time: 30min</li>
+            <li>Serves: nz</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>kartop</td>
+                <td>nz</td>
+            </tr>
+            <tr>
+                <td>myaso</td>
+                <td>nz</td>
+            </tr>
+            <tr>
+                <td>oil</td>
+                <td>nz</td>
+            </tr>
+            </tbody>
+        </table>
+        
+        <p class="stp-1"><strong>Step 1:</strong> Do something.
+</p>
+        <p class="stp-2"><strong>Step 2:</strong>Do something x2</p>
+        <p class="stp-3"><strong>Step 3:</strong>Do something x3</p>
+        <img src="https://www.kasandbox.org/programming-images/avatars/aqualine-seed.png">
+    <p><em>Source: <a href="https://www.wikipedia.org/">Some recipes websites</a></em></p>
+    <h2 id="rcp-2">Recipe #2</h2>
+    <ul>
+        <li>Time:20min</li>
+        <li>Serves:nz</li>
+    </ul>
+    <table>
+        <thead>
+            <tr>
+                <th>Ingredients</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ing #1</td>
+                <td>nz</td>
+            </tr>
+            <tr>
+                <td>ing #2</td>
+                <td>nz</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="stp-1"><strong>Step 1:</strong>Do step 1</p>
+    <p class="stp-2"><strong>Step 2:</strong>Do step 2</p>
+    <p><em>Source:<a href="https://www.wikipedia.org/">See more</a></em></p>
+    </body>
+</html>
