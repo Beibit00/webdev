@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+            body{
+                background-color:rgb(125,125,125);
+            }
+            h1{
+                color:green;
+            }
+            #history{
+                color:red;
+            }
+            .h2class{
+                background-color:yellow;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <h1>Travel to KZO</h1>
+        <h2 id="history">History</h2>
+        <p>A settlement existed under Seljuk, the founder of the Seljuk dynasty. The modern city had its beginnings in 1817[2] as the site of a Kokand fortress known as Ak-Mechet, or white mosque.[3] The later-famous Yaqub Beg was once the fort's commander, but he was apparently not in command during the final battle. In 1853, during the Russian conquest of Turkestan, the fort was taken by Russian troops under General Vasily Perovsky.[3] The Russians established a new fort and called it Fort-Perovsky (Форт-Перо́вский), after the general.</p>
+        
+        <h2 class="h2class">Images:</h2>
+        <img src="https://www.kasandbox.org/programming-images/creatures/OhNoes.png">
+        <img src="https://www.kasandbox.org/programming-images/space/collisioncircle.png">
+        <h2 class="h2class">Places to go:</h2>
+            <ul>
+                <li>river Syrdaria
+                <li>Korkyt monument
+                <li>Korkyt University
+            </ul>
+        
+        
+    </body>
+</html>
