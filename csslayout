@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Floating clouds</title>
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+            h1 {
+                font-family: fantasy;
+                text-align:center;
+            }
+            #bala {
+                width: 90px;
+                float:left;
+                margin:5px;
+                border:3px dotted red;
+            }
+            #all{
+                border:2px dashed green;
+                background:yellow;
+            }
+            .frst-block{
+                font-weight:bold;
+                
+            }
+            .scnd-block{
+               border:2px dashed green;
+                background:yellow;
+                margin-top:2px;
+            }
+            h2{
+             font-family: fantasy;
+                text-align:center;
+                font-size:30px;
+                margin-bottom:0px;
+            }
+            li{
+                font-style:italic;
+                text-decoration:underline;
+                font-weight:bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="all">
+        <h1>You are invited</h1>
+
+        <img id="bala" src="https://www.kasandbox.org/programming-images/avatars/aqualine-sapling.png">
+        
+        
+        
+        
+        <p class="frst-block">Традиционная практика или <a href="https://ru.wikipedia.org/wiki/%D0%A5%D0%B8%D1%80%D1%83%D1%80%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F">хирургическая операция</a> («циркумци́зия», лат. circumcisio) — удаление у мальчиков и мужчин <a href="https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D0%B9%D0%BD%D1%8F%D1%8F_%D0%BF%D0%BB%D0%BE%D1%82%D1%8C">крайней плоти</a> с различными целями</p>
+
+        <p class="frst-block">И мы приглашаем вас стать <em>гостью</em> этого вечера.</p>
+        </div>
+<div class="scnd-block">
+    <h2>Guest list</h2>
+    <ul>
+        <li>asdadasdadad</li>
+        <li>dfaesfed</li>
+        <li>dadadada</li>
+    </ul>
+</div>        
+    </body>
+</html>
